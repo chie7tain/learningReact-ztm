@@ -1,0 +1,31 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #95dada;
+  border: 1px solid grey;
+  padding: 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  -webkit-transition: transform 0.25s eas;
+  -moz-transition: transform 0.25s eas;
+  -ms-transition: transform 0.25s eas;
+  -o-transition: transform 0.25s eas;
+}
+.card-container:hover {
+  transform: scale(1.05);
+}
