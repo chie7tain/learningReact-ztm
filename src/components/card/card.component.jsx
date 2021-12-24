@@ -8,8 +8,11 @@ const Card = (props) => {
         alt={monster.name}
         src={`https://robohash.org/${monster.id}?sert=set&size=100x100`}
       />
-      <h1>{monster.name}</h1>
-      <h2>{monster.email}</h2>
+      <h1 className="monster-name">{monster.name}</h1>
+      <h2 className="monster-mail">{monster.email}</h2>
+      <p className="monster-number">
+        Call {monster.name} at {monster.phone.match(/[0-9][\S]/g)}
+      </p>
     </div>
   );
 };

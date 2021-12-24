@@ -29,3 +29,18 @@
 .card-container:hover {
   transform: scale(1.05);
 }
+.monster-name {
+  font-size: 1.7rem;
+}
+.monster-mail {
+  font-size: 0.9em;
+}
+.monster-address li {
+  list-style: none;
+}
+.monster-address {
+  font-family: "Times New Roman", Times, serif;
+}
+.monster-number {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
