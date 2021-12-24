@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/learningReact-ztm/static/css/main.9d1c0fe3.css",
-    "main.js": "/learningReact-ztm/static/js/main.a7e672d4.js",
+    "main.css": "/learningReact-ztm/static/css/main.d7e6273d.css",
+    "main.js": "/learningReact-ztm/static/js/main.13f3ff21.js",
     "static/js/787.fbb2c275.chunk.js": "/learningReact-ztm/static/js/787.fbb2c275.chunk.js",
     "index.html": "/learningReact-ztm/index.html",
-    "main.9d1c0fe3.css.map": "/learningReact-ztm/static/css/main.9d1c0fe3.css.map",
-    "main.a7e672d4.js.map": "/learningReact-ztm/static/js/main.a7e672d4.js.map",
+    "main.d7e6273d.css.map": "/learningReact-ztm/static/css/main.d7e6273d.css.map",
+    "main.13f3ff21.js.map": "/learningReact-ztm/static/js/main.13f3ff21.js.map",
     "787.fbb2c275.chunk.js.map": "/learningReact-ztm/static/js/787.fbb2c275.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d1c0fe3.css",
-    "static/js/main.a7e672d4.js"
+    "static/css/main.d7e6273d.css",
+    "static/js/main.13f3ff21.js"
   ]
 }
