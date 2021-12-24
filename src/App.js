@@ -23,7 +23,7 @@ class App extends Component {
   };
   render() {
     const { monsters, searchField } = this.state;
-    const filteredMonsteres = monsters.filter((monster) =>
+    const filteredMonsters = monsters.filter((monster) =>
       monster.name.toLowerCase().includes(searchField.toLowerCase())
     );
 
@@ -35,7 +35,7 @@ class App extends Component {
           placeholder={"Find Your monster"}
         />
 
-        <CardList monsters={filteredMonsteres} />
+        <CardList monsters={filteredMonsters} />
       </div>
     );
   }
